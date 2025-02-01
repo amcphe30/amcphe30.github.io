@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #C7CDB7;
+    color: #335C67;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+}
+
+header {
+    padding: 1rem;
+    text-align: left;
+    color: #335C67;
+}
+
+nav ul {
+    list-style: none;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.project-button {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #335C67;
+    border: none;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #D8A48F;
+    padding: 8px 13px;
+    text-align: center;
+    border-radius: 8px;
+    color: #335C67;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #C7CDB7;
+}
+
+.color-bar {
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr; 
+    grid-template-rows: 50px 50px;
+}
+
+.color-bar div {
+    height: 100%; 
+}
+
+.text-image-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin: 50px;
+}
+
+

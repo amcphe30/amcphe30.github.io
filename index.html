@@ -1,1 +1,62 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Abigail McPhee</h1>
+        <h3>Contact</h3>
+        <a href="https://www.linkedin.com/in/abigail-mcphee-b403b7b9/">LinkedIn</a>
+        <a href="https://github.com/amcphe30?tab=repositories">Github</a>
+        <h5>amcphe02@cs.students.ubc.ca</h5>
+    </header>
+    <div class="color-bar">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <header>
+        <h2>Projects</h2>
+    </header>
+    <nav>
+        <ul>
+            <a href="InsightUBC.html" class="project-button">Insight UBC</a>
+            <a href="Bumblebee-Game.html" class="project-button">Bumblebee Game</a>
+            <a href="Oracle-of-Delphi.html" class="project-button">Oracle of Delphi</a>
+            <a href="Battleship.html" class="project-button">Battleship</a>
+            <a href="Shining-Adventure-Game.html" class="project-button">Shining </a>
+            <a href="Flock.html" class="project-button">Flock</a>
+        </ul>
+    </nav>
+
+    <script>
+        // Array of six specified colors
+        const colors = ['#6A3509', '#E7C766', '#C59042', '#335C67', '#2A3D45', '#D8A48F', '#F4A261', '#E2D7B6'];
+        const textColors = ['#E7C766', '#6A3509', '#335C67', '#C59042', '#D8A48F', '#335C67', '#335C67', '#335C67'];
+        
+        // Function to get a random color from the array
+        function getRandomColor() {
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            return colors[randomIndex];
+        }
+        
+        // Apply the random color to the element
+        document.querySelector('.color-bar').style.backgroundColor = getRandomColor();
+        const buttons = document.querySelectorAll('.project-button');
+        buttons.forEach(button => {
+            const randomIndex = Math.floor(Math.random() * colors.length);
+            button.style.backgroundColor = colors[randomIndex];
+            button.style.color = textColors[randomIndex];
+        });       
+        </script>
+
+</body>
+</html>
