@@ -21,13 +21,15 @@ h5 { color: #C59042; }
 h6 { color: #F4A261; }
 
 nav ul {
-    list-style: none;
-    padding: 15px;
+    list-style: none; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    padding: 10px;
 }
 
 nav a {
@@ -37,23 +39,25 @@ nav a {
 .project-button {
     width: 200px;
     height: 300px;
-    display: inline-block;
-    padding: 15px 30px;
+    padding: 15px;
     margin: 10px;
-    font-size: 18px;
+    font-size: 24px;
     text-align: center;
     text-decoration: none;
     border-radius: 8px;
     background-color: #335C67;
-    border: none;
-    cursor: pointer;
+    cursor:pointer;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between;
 }
 
 .button {
     background-color: #D8A48F;
-    padding: 8px 13px;
     text-align: center;
     border-radius: 8px;
+    padding: 5px;
     color: #335C67;
     text-decoration: none;
 }
