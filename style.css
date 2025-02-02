@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #C7CDB7;
+    background-color: #D8DFC5;
     color: #335C67;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
@@ -12,6 +12,13 @@ header {
     text-align: left;
     color: #335C67;
 }
+
+h1 { color: #335C67; }
+h2 { color: #2A3D45; }
+h3 { color: #335C67; }
+h4 { color: #335C67; }
+h5 { color: #C59042; }
+h6 { color: #F4A261; }
 
 nav ul {
     list-style: none;
@@ -74,8 +81,9 @@ footer {
 .text-image-container {
     display: flex;
     align-items: center;
-    gap: 60px;
-    margin: 50px;
+    gap: 30px;
+    margin: 0px;
+    padding: 10px;
 }
 
 
