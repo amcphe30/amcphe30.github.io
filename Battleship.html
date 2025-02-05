@@ -9,16 +9,37 @@
 </head>
 <body>
     <header>
-        <h2>Battleship</h2>
+        <h1>Battleship</h1>
+        <a href="index.html" class="button">Back</a>
     </header>
-    <header>
-        <h2>This page is still under construction!</h2>
-    </header>
-    <nav>
-        <ul>
-            <a href="index.html" class="button">Back</a>
-        </ul>
-    </nav>
+    <div class="text-image-container">
+        <section>
+            <h2>Overview</h2>
+            <p>This clone of the classic Battleship game was created for my software construction 
+                course CPSC 210. The main requirements of the project were some persisted state, 
+                and code coverage. I worked with the time that I had while balancing my other 
+                courses and I’m ultimately proud of what I was able to accomplish. I hope to come 
+                back to this codebase at some point in the future to clean up the gameplay and 
+                possibly embed here.</p>
+        </section>
+        <img id="battleshipLogo" src="res/BattleshipLogo.png" alt="Battleship Logo" width="400">
+    </div>
+    <section>
+        <h2>Process</h2>
+        <div class="text-image-container">
+            <div>
+                <h3>Software Development</h3>
+                <p>This project was made over the course of three deliverables. First, we were required to 
+                    create a test suite, then a command line application, then a visual application. 
+                    Battleship boasts an impressive and entirely unrealistic 100% line coverage. Line coverage 
+                    is not the best way to assess the correctness of a system but it is the most tangible so it 
+                    made sense for an introductory course. The process did give me some interesting insight 
+                    into my codebase. For example, I realized that I had catch blocks that could never be tested 
+                    because they were catching errors that did not exist.  </p>
+                <a href="https://github.com/amcphe30/Battleship" class="button">Github Repo</a>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
