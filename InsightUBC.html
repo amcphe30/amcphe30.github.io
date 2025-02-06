@@ -10,15 +10,44 @@
 <body>
     <header>
         <h2>Insight UBC</h2>
+        <a href="index.html" class="button">Back</a>
     </header>
-    <header>
-        <h2>This page is still under construction!</h2>
-    </header>
-    <nav>
-        <ul>
-            <a href="index.html" class="button">Back</a>
-        </ul>
-    </nav>
+    <div class="text-image-container">
+        <section>
+            <h2>Overview</h2>
+            <p>A full stack web development project created for CPSC 310 2024w1, introduction to software engineering. 
+                The goal of this project is to create a web application that makes it possible to maintain and query a 
+                database of rooms around the university and courses. Rooms had features like number of seats, type of 
+                furniture, location, etc. Courses had features like department, course code, course title, professor name, 
+                averages of past course sections, and so on. There was a strong emphasis on quality software development 
+                practices, like maintaining a robust test suite, reducing coupling, invoking design patterns when appropriate, 
+                and well documented code. As this project is used in ongoing CPSC 310 sections, it is considered academic 
+                misconduct to post my codebase publicly so I will not be linking the repo for this project.</p>
+        </section>
+    </div>
+    <section>
+        <h2>Process</h2>
+            <div>
+                <h3>Software Development</h3>
+                <p>InsightUBC was created over the course of four deliverables. The first was individual and included the creation 
+                    of an initial test suite based on the specifications. This test suite grew significantly throughout the development 
+                    process. The rest of the project was done in groups of two. The second deliverable allowed users to add and 
+                    remove datasets from the database, and list all current datasets. This involved parsing, validating and 
+                    modelling rooms and sections received in the form of an html or json file. The third deliverable was to allow 
+                    users to query the database. Given a specifically formatted json file, the query engine would either return an 
+                    error signifying that the query was poorly formatted or return a json file containing the results of the query. 
+                    Examples of query results include: all courses with historical averages >= 80%, all rooms in a specified 
+                    building, all rooms above a specified capacity and not a specified furniture type etc. The fourth deliverable 
+                    was to build an interactive frontend.</p>
+            </div>
+            <div>
+                <h3>Tech Stack</h3>
+                <p>Backend: Typescript<br>
+                    Frontend: html and javascript<br>
+                    Backend testing: Chai<br>
+                    Version control and collaboration: Github</p>
+            </div>
+    </section>
 
 </body>
 </html>
