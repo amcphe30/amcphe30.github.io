@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sw?
+
+# Environment variables
+.env
+.env.*.local
+
+# Mac-specific
+*.DS_Store
+
+# Optional: local dev server files
+*.local
+
+# GitHub Pages deployment cache (optional)
+.gh-pages-cache/
